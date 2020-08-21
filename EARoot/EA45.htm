@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Transformar arquitectura</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA46.gif" usemap="#EA46" border="0" />
+
+<MAP NAME="EA46">
+<area shape="rect" coords="472,267,762,298" href="EA57.htm" target="_self">
+<area shape="rect" coords="739,10,838,819" href="EA160.htm" target="_self">
+<area shape="rect" coords="614,10,704,819" href="EA165.htm" target="_self">
+<area shape="rect" coords="518,10,608,819" href="EA159.htm" target="_self">
+<area shape="rect" coords="853,10,943,819" href="EA167.htm" target="_self">
+<area shape="rect" coords="10,10,100,819" href="EA157.htm" target="_self">
+<area shape="rect" coords="211,10,301,819" href="EA166.htm" target="_self">
+<area shape="rect" coords="320,10,429,819" href="EA168.htm" target="_self">
+<area shape="rect" coords="422,10,521,819" href="EA158.htm" target="_self">
+<area shape="rect" coords="483,613,904,763" href="EA163.htm" target="_self">
+<area shape="rect" coords="474,573,915,769" href="EA169.htm" target="_self">
+<area shape="rect" coords="471,306,925,808" href="EA164.htm" target="_self">
+<area shape="rect" coords="463,228,932,816" href="EA162.htm" target="_self">
+<area shape="rect" coords="45,137,943,827" href="EA161.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Transformar arquitectura : Interaction diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">5/20/2015 10:54:42 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/20/2015 11:49:19 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Alejo</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{0BD56CF1-0537-4634-89E4-BCB5C726E848}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

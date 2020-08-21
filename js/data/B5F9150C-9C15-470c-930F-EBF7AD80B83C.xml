@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "Estructura", "EARoot/EA3/EA2/EA508.htm", "175.png", "33", "0", "", "Logical diagram0","{871C1B9A-C2A3-45c4-B3B6-8FA3D20DBB5F}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "Graficador", "EARoot/EA3/EA2/EA510.htm", "175.png", "38", "0", "", "Logical diagram0","{CD2E91D0-68EF-4df5-9DE9-C54616A49155}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "Transformador", "EARoot/EA3/EA2/EA512.htm", "175.png", "37", "0", "", "Logical diagram0","{62B3A1B3-CB40-4e4b-92C3-7CBE5ED8B3D4}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "Arquitecto", "EARoot/EA3/EA2/EA515.htm", "5.png", "E330", "0", "", "Class0","{81078F75-8C60-4dd9-9379-1B71BD40CD64}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "Clasificador", "EARoot/EA3/EA2/EA516.htm", "5.png", "E331", "0", "", "Class0","{9DF7F1C0-036C-44bb-B037-38658E6AC642}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "Componente", "EARoot/EA3/EA2/EA517.htm", "5.png", "E332", "0", "", "Class0","{D72E8941-3E36-4a2a-BBFE-DD6B01677ED6}");
+tocTab[tocTab.length] = new Array("0.3.2:7", "", "Implementador", "EARoot/EA3/EA2/EA518.htm", "5.png", "E333", "0", "", "Class0","{33917716-3BB0-45a4-BC33-21E0EBFEBF1C}");
+tocTab[tocTab.length] = new Array("0.3.2:8", "", "ImplementadorSVG", "EARoot/EA3/EA2/EA519.htm", "5.png", "E334", "0", "", "Class0","{E363CF32-B475-4c92-BE58-42C8CB1AA7B9}");
+tocTab[tocTab.length] = new Array("0.3.2:9", "", "ImplementadorXMI", "EARoot/EA3/EA2/EA520.htm", "5.png", "E335", "0", "", "Class0","{C21A8F40-E3E0-4630-BCC3-5EF28B85CD6B}");
+tocTab[tocTab.length] = new Array("0.3.2:10", "", "InterfazProvision", "EARoot/EA3/EA2/EA521.htm", "5.png", "E336", "0", "", "Class0","{342C8D4B-7015-44fe-B554-C6DCE253586B}");
+tocTab[tocTab.length] = new Array("0.3.2:11", "", "InterfazRequerimiento", "EARoot/EA3/EA2/EA522.htm", "5.png", "E337", "0", "", "Class0","{1B946322-57B4-4e92-9C12-3A234228D68C}");

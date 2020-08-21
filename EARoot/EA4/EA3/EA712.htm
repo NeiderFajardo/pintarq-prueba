@@ -1,0 +1,1077 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>generadorSTPA: GeneradorSTPA</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"><a href="../../EA3/EA4/EA552.htm">«Visitador» GeneradorSTPA</a></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("generadorSTPA", " : "))</script>  : Public  &lt;&lt;Visitador&gt;&gt; Object instance</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/12/2017 3:53:27 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">11/12/2017 3:53:38 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">oskar</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{52126D06-1B86-45ab-92FC-A4AC79C466FF}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA632.htm">Crear STPA</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA709.htm">estadoFracasoGlobal: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1843" onclick="parent.toggleDiv('detailsDIVMessage1843', 'DetailsImageMessage1843')" />Details:
+							<div id="detailsDIVMessage1843" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoFracasoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1844" onclick="parent.toggleDiv('detailsDIVMessage1844', 'DetailsImageMessage1844')" />Details:
+							<div id="detailsDIVMessage1844" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA703.htm">estadoEjecucionComponente: EstadoEjecucionComponente</a></td>
+					<td width="50%" class="TableRow" valign="top">setInicial(true)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1845" onclick="parent.toggleDiv('detailsDIVMessage1845', 'DetailsImageMessage1845')" />Details:
+							<div id="detailsDIVMessage1845" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">buscarEstado(ctx.getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1846" onclick="parent.toggleDiv('detailsDIVMessage1846', 'DetailsImageMessage1846')" />Details:
+							<div id="detailsDIVMessage1846" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoEjecucionExitosaSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1847" onclick="parent.toggleDiv('detailsDIVMessage1847', 'DetailsImageMessage1847')" />Details:
+							<div id="detailsDIVMessage1847" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA705.htm">estadoEjecucionNoExitosa: EstadoEjecucionNoExitosa</a></td>
+					<td width="50%" class="TableRow" valign="top">EstadoEjecucionNoExitosa(componente.getNombre())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1848" onclick="parent.toggleDiv('detailsDIVMessage1848', 'DetailsImageMessage1848')" />Details:
+							<div id="detailsDIVMessage1848" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionFracasoSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1849" onclick="parent.toggleDiv('detailsDIVMessage1849', 'DetailsImageMessage1849')" />Details:
+							<div id="detailsDIVMessage1849" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionFracasoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1850" onclick="parent.toggleDiv('detailsDIVMessage1850', 'DetailsImageMessage1850')" />Details:
+							<div id="detailsDIVMessage1850" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA737.htm">transicionExitoGlobal: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoEjecucionExitosaSumidero,  estadoExitoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1851" onclick="parent.toggleDiv('detailsDIVMessage1851', 'DetailsImageMessage1851')" />Details:
+							<div id="detailsDIVMessage1851" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoFracasoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1852" onclick="parent.toggleDiv('detailsDIVMessage1852', 'DetailsImageMessage1852')" />Details:
+							<div id="detailsDIVMessage1852" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA720.htm">listaInterfaces : List<Clasificador></a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1853" onclick="parent.toggleDiv('detailsDIVMessage1853', 'DetailsImageMessage1853')" />Details:
+							<div id="detailsDIVMessage1853" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoExitoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1854" onclick="parent.toggleDiv('detailsDIVMessage1854', 'DetailsImageMessage1854')" />Details:
+							<div id="detailsDIVMessage1854" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(ctx.expresion())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1855" onclick="parent.toggleDiv('detailsDIVMessage1855', 'DetailsImageMessage1855')" />Details:
+							<div id="detailsDIVMessage1855" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">capturarTransiciones()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1856" onclick="parent.toggleDiv('detailsDIVMessage1856', 'DetailsImageMessage1856')" />Details:
+							<div id="detailsDIVMessage1856" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA719.htm">listaEstados : List<Estado> </a></td>
+					<td width="50%" class="TableRow" valign="top">add(eInicial)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1857" onclick="parent.toggleDiv('detailsDIVMessage1857', 'DetailsImageMessage1857')" />Details:
+							<div id="detailsDIVMessage1857" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1858" onclick="parent.toggleDiv('detailsDIVMessage1858', 'DetailsImageMessage1858')" />Details:
+							<div id="detailsDIVMessage1858" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">setEstadoInicial(estadoEjecucionComponente)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1859" onclick="parent.toggleDiv('detailsDIVMessage1859', 'DetailsImageMessage1859')" />Details:
+							<div id="detailsDIVMessage1859" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA703.htm">estadoEjecucionComponente: EstadoEjecucionComponente</a></td>
+					<td width="50%" class="TableRow" valign="top">EstadoEjecucionComponente(componente.getNombre()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1860" onclick="parent.toggleDiv('detailsDIVMessage1860', 'DetailsImageMessage1860')" />Details:
+							<div id="detailsDIVMessage1860" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA699.htm">ei: EjecucionInicial</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1861" onclick="parent.toggleDiv('detailsDIVMessage1861', 'DetailsImageMessage1861')" />Details:
+							<div id="detailsDIVMessage1861" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionReinicioFracaso)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1862" onclick="parent.toggleDiv('detailsDIVMessage1862', 'DetailsImageMessage1862')" />Details:
+							<div id="detailsDIVMessage1862" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA716.htm">interfaz: Clasificador</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1863" onclick="parent.toggleDiv('detailsDIVMessage1863', 'DetailsImageMessage1863')" />Details:
+							<div id="detailsDIVMessage1863" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA719.htm">listaEstados : List<Estado> </a></td>
+					<td width="50%" class="TableRow" valign="top">add(estadoElse)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1864" onclick="parent.toggleDiv('detailsDIVMessage1864', 'DetailsImageMessage1864')" />Details:
+							<div id="detailsDIVMessage1864" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(Estado)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1865" onclick="parent.toggleDiv('detailsDIVMessage1865', 'DetailsImageMessage1865')" />Details:
+							<div id="detailsDIVMessage1865" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(ctx.expresion())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1866" onclick="parent.toggleDiv('detailsDIVMessage1866', 'DetailsImageMessage1866')" />Details:
+							<div id="detailsDIVMessage1866" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA700.htm">ei: EjecucionInicial</a></td>
+					<td width="50%" class="TableRow" valign="top">EjecucionInicial(e)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1867" onclick="parent.toggleDiv('detailsDIVMessage1867', 'DetailsImageMessage1867')" />Details:
+							<div id="detailsDIVMessage1867" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA718.htm">listaEstados : List<Estado> </a></td>
+					<td width="50%" class="TableRow" valign="top">ArrayList<>()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1868" onclick="parent.toggleDiv('detailsDIVMessage1868', 'DetailsImageMessage1868')" />Details:
+							<div id="detailsDIVMessage1868" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">STPA()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1869" onclick="parent.toggleDiv('detailsDIVMessage1869', 'DetailsImageMessage1869')" />Details:
+							<div id="detailsDIVMessage1869" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionExitoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1870" onclick="parent.toggleDiv('detailsDIVMessage1870', 'DetailsImageMessage1870')" />Details:
+							<div id="detailsDIVMessage1870" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">buscarEstado(ctx.getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1871" onclick="parent.toggleDiv('detailsDIVMessage1871', 'DetailsImageMessage1871')" />Details:
+							<div id="detailsDIVMessage1871" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionReinicioExito)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1872" onclick="parent.toggleDiv('detailsDIVMessage1872', 'DetailsImageMessage1872')" />Details:
+							<div id="detailsDIVMessage1872" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(t)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1873" onclick="parent.toggleDiv('detailsDIVMessage1873', 'DetailsImageMessage1873')" />Details:
+							<div id="detailsDIVMessage1873" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA698.htm">eFinal: EstadoEjecucionComponente</a></td>
+					<td width="50%" class="TableRow" valign="top">EstadoEjecucionComponente(clausula.ID().getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1874" onclick="parent.toggleDiv('detailsDIVMessage1874', 'DetailsImageMessage1874')" />Details:
+							<div id="detailsDIVMessage1874" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA717.htm">listaEstados : List<Estado></a></td>
+					<td width="50%" class="TableRow" valign="top">ArrayList<>()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1875" onclick="parent.toggleDiv('detailsDIVMessage1875', 'DetailsImageMessage1875')" />Details:
+							<div id="detailsDIVMessage1875" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA738.htm">transicionExitoSumidero: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoEjecucionComponente,  estadoEjecucionExitosaSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1876" onclick="parent.toggleDiv('detailsDIVMessage1876', 'DetailsImageMessage1876')" />Details:
+							<div id="detailsDIVMessage1876" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoElse)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1877" onclick="parent.toggleDiv('detailsDIVMessage1877', 'DetailsImageMessage1877')" />Details:
+							<div id="detailsDIVMessage1877" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA707.htm">estadoExitoGlobal: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">Estado("exito")</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1878" onclick="parent.toggleDiv('detailsDIVMessage1878', 'DetailsImageMessage1878')" />Details:
+							<div id="detailsDIVMessage1878" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA704.htm">estadoEjecucionExitosaSumidero: EstadoEjecucionExitosa</a></td>
+					<td width="50%" class="TableRow" valign="top">EstadoEjecucionExitosa(componente.getNombre())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1879" onclick="parent.toggleDiv('detailsDIVMessage1879', 'DetailsImageMessage1879')" />Details:
+							<div id="detailsDIVMessage1879" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA734.htm">t: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoElse,  e)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1880" onclick="parent.toggleDiv('detailsDIVMessage1880', 'DetailsImageMessage1880')" />Details:
+							<div id="detailsDIVMessage1880" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA693.htm">componente: Componente</a></td>
+					<td width="50%" class="TableRow" valign="top">getInterfaces()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1881" onclick="parent.toggleDiv('detailsDIVMessage1881', 'DetailsImageMessage1881')" />Details:
+							<div id="detailsDIVMessage1881" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">buscarEstado(clausula.ID().getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1882" onclick="parent.toggleDiv('detailsDIVMessage1882', 'DetailsImageMessage1882')" />Details:
+							<div id="detailsDIVMessage1882" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(Estado)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1883" onclick="parent.toggleDiv('detailsDIVMessage1883', 'DetailsImageMessage1883')" />Details:
+							<div id="detailsDIVMessage1883" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA739.htm">transicionFracasoGlobal: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoEjecucionNoExitosaSumidero,  estadoFracasoGlobal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1884" onclick="parent.toggleDiv('detailsDIVMessage1884', 'DetailsImageMessage1884')" />Details:
+							<div id="detailsDIVMessage1884" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(eFinal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1885" onclick="parent.toggleDiv('detailsDIVMessage1885', 'DetailsImageMessage1885')" />Details:
+							<div id="detailsDIVMessage1885" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">capturarEstadosIniciales()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1886" onclick="parent.toggleDiv('detailsDIVMessage1886', 'DetailsImageMessage1886')" />Details:
+							<div id="detailsDIVMessage1886" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA741.htm">transicionReinicioExito: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoExitoGlobal,  stpa.getEstadoInicial())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1887" onclick="parent.toggleDiv('detailsDIVMessage1887', 'DetailsImageMessage1887')" />Details:
+							<div id="detailsDIVMessage1887" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA710.htm">estadoFracasoGlobal: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">Estado("fracaso")</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1888" onclick="parent.toggleDiv('detailsDIVMessage1888', 'DetailsImageMessage1888')" />Details:
+							<div id="detailsDIVMessage1888" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA701.htm">eInicial: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">Estado(clausula.guarda().restriccionEcuacional().getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1889" onclick="parent.toggleDiv('detailsDIVMessage1889', 'DetailsImageMessage1889')" />Details:
+							<div id="detailsDIVMessage1889" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEjecucionInicial(ei)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1890" onclick="parent.toggleDiv('detailsDIVMessage1890', 'DetailsImageMessage1890')" />Details:
+							<div id="detailsDIVMessage1890" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEjecucionInicial(ei)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1891" onclick="parent.toggleDiv('detailsDIVMessage1891', 'DetailsImageMessage1891')" />Details:
+							<div id="detailsDIVMessage1891" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(estadoEjecucionNoExitosaSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1892" onclick="parent.toggleDiv('detailsDIVMessage1892', 'DetailsImageMessage1892')" />Details:
+							<div id="detailsDIVMessage1892" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA742.htm">transicionReinicioFracaso: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1893" onclick="parent.toggleDiv('detailsDIVMessage1893', 'DetailsImageMessage1893')" />Details:
+							<div id="detailsDIVMessage1893" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA735.htm">t: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(eInicial,  eFinal)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1894" onclick="parent.toggleDiv('detailsDIVMessage1894', 'DetailsImageMessage1894')" />Details:
+							<div id="detailsDIVMessage1894" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA719.htm">listaEstados : List<Estado> </a></td>
+					<td width="50%" class="TableRow" valign="top">ArrayList<>()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1895" onclick="parent.toggleDiv('detailsDIVMessage1895', 'DetailsImageMessage1895')" />Details:
+							<div id="detailsDIVMessage1895" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA706.htm">estadoElse: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">Estado("else_")</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1896" onclick="parent.toggleDiv('detailsDIVMessage1896', 'DetailsImageMessage1896')" />Details:
+							<div id="detailsDIVMessage1896" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA740.htm">transicionFracasoSumidero: Transicion</a></td>
+					<td width="50%" class="TableRow" valign="top">Transicion(estadoEjecucionComponente,  estadoEjecucionNoExitosaSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1897" onclick="parent.toggleDiv('detailsDIVMessage1897', 'DetailsImageMessage1897')" />Details:
+							<div id="detailsDIVMessage1897" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA708.htm">estadoExitoGlobal: Estado</a></td>
+					<td width="50%" class="TableRow" valign="top">Estado("exito")</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1898" onclick="parent.toggleDiv('detailsDIVMessage1898', 'DetailsImageMessage1898')" />Details:
+							<div id="detailsDIVMessage1898" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">buscarEstado(ctx.ID().getText())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1899" onclick="parent.toggleDiv('detailsDIVMessage1899', 'DetailsImageMessage1899')" />Details:
+							<div id="detailsDIVMessage1899" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(definicionSistema)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1900" onclick="parent.toggleDiv('detailsDIVMessage1900', 'DetailsImageMessage1900')" />Details:
+							<div id="detailsDIVMessage1900" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarTransicion(transicionExitoSumidero)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1901" onclick="parent.toggleDiv('detailsDIVMessage1901', 'DetailsImageMessage1901')" />Details:
+							<div id="detailsDIVMessage1901" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA733.htm">stpa: STPA</a></td>
+					<td width="50%" class="TableRow" valign="top">agregarEstado(eInicial)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1902" onclick="parent.toggleDiv('detailsDIVMessage1902', 'DetailsImageMessage1902')" />Details:
+							<div id="detailsDIVMessage1902" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA693.htm">componente: Componente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1903" onclick="parent.toggleDiv('detailsDIVMessage1903', 'DetailsImageMessage1903')" />Details:
+							<div id="detailsDIVMessage1903" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA603.htm">contenido.tag</a></td>
+					<td width="50%" class="TableRow" valign="top">GeneradorSTPA(List<Componente>,  RhoArqV1Parser.EcuacionContext)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1904" onclick="parent.toggleDiv('detailsDIVMessage1904', 'DetailsImageMessage1904')" />Details:
+							<div id="detailsDIVMessage1904" class="DetailsDiv" >
+							<strong>Type:</strong> New Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(ctx.expresion())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1905" onclick="parent.toggleDiv('detailsDIVMessage1905', 'DetailsImageMessage1905')" />Details:
+							<div id="detailsDIVMessage1905" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">capturarTransiciones()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1906" onclick="parent.toggleDiv('detailsDIVMessage1906', 'DetailsImageMessage1906')" />Details:
+							<div id="detailsDIVMessage1906" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(ctx.expresion())</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1907" onclick="parent.toggleDiv('detailsDIVMessage1907', 'DetailsImageMessage1907')" />Details:
+							<div id="detailsDIVMessage1907" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA603.htm">contenido.tag</a></td>
+					<td width="50%" class="TableRow" valign="top">construirSTPA()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1908" onclick="parent.toggleDiv('detailsDIVMessage1908', 'DetailsImageMessage1908')" />Details:
+							<div id="detailsDIVMessage1908" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">capturarEstadosIniciales()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1909" onclick="parent.toggleDiv('detailsDIVMessage1909', 'DetailsImageMessage1909')" />Details:
+							<div id="detailsDIVMessage1909" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA712.htm">«Visitador» generadorSTPA: GeneradorSTPA</a></td>
+					<td width="50%" class="TableRow" valign="top">visit(definicionSistema)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage1910" onclick="parent.toggleDiv('detailsDIVMessage1910', 'DetailsImageMessage1910')" />Details:
+							<div id="detailsDIVMessage1910" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

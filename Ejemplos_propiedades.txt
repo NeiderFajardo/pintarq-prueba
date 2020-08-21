@@ -1,0 +1,67 @@
+
+***************** EnsambleComplejo.tex *****************
+
+----- Propiedades que satisface el modelo / Properties satisfied by the model --------
+
+F -> <>M^{\top}
+F -> <>exito
+
+
+-------- Propiedades que no satisface el modelo / Properties not satisfied by the model --------
+
+! ( F -> <>fracaso )
+
+*******************************************************
+
+
+************ CombinadorCaso1.tex *****************
+
+----- Propiedades que satisface el modelo / Properties satisfied by the model --------
+
+E -> <>M^{\top}
+
+
+-------- Propiedades que no satisface el modelo / Properties not satisfied by the model --------
+
+! (E -> <>else_)
+
+**************************************************
+
+
+************ CombinadorCaso2.tex *****************
+
+----- Propiedades que satisface el modelo / Properties satisfied by the model --------
+
+E -> <>F
+
+-------- Propiedades que no satisface el modelo / Properties not satisfied by the model --------
+
+!(E -> <>F^{\top})
+
+**************************************************
+
+
+************ CombinadorCaso3.tex *****************
+
+----- Propiedades que satisface el modelo / Properties satisfied by the model --------
+
+E -> <>X
+
+-------- Propiedades que no satisface el modelo / Properties not satisfied by the model --------
+
+!(E -> <>fracaso)
+
+**************************************************
+
+
+************ ReduccionSucesiva.tex *****************
+
+----- Propiedades que satisface el modelo / Properties satisfied by the model --------
+
+F -> <>M^{\top}
+
+-------- Propiedades que no satisface el modelo / Properties not satisfied by the model --------
+
+!(F -> <>B^{\bot})
+
+**************************************************
